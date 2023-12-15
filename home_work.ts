@@ -34,7 +34,6 @@ class School {
     this.attendance.push(present);
   }
 }
-
 class Direction {
   directions: Directions[] = ["up", "down", "left", "right"];
 
@@ -101,15 +100,12 @@ class Group {
   }
 
 }
-
-
 class Student  {
   private _students: any[] = [];
   directionName: string;
   levelName: string;
   grades: any = {};
   attendance: number[] = [];
-
   
   get students() {
     return this._students;
